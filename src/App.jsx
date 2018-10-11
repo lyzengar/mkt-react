@@ -7,7 +7,10 @@ class App extends Component {
     this.state = {
       taiko: {},
       stands: {},
-      percussion: {}
+      percussion: {},
+      taikoURL: {},
+      standsURL: {},
+      percussionURL: {}
     }
   }
   render() {
