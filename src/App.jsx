@@ -22,6 +22,10 @@ class App extends Component {
     this.setState({ stands: {} })
   }
 
+  handlePercussion = () => {
+    this.setState({ percussion: {} })
+  }
+
   render() {
     return (
       <div className="App">
