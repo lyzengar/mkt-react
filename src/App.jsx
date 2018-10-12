@@ -18,6 +18,10 @@ class App extends Component {
     this.setState({ taiko: {} })
   }
 
+  handleStands = () => {
+    this.setState({ stands: {} })
+  }
+
   render() {
     return (
       <div className="App">
