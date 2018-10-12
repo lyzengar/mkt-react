@@ -13,6 +13,11 @@ class App extends Component {
       percussionURL: {}
     }
   }
+
+  handleTaiko = () => {
+    this.setState({ taiko: {} })
+  }
+
   render() {
     return (
       <div className="App">
