@@ -5,12 +5,12 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      taiko: {},
-      stands: {},
-      percussion: {},
-      taikoURL: {},
-      standsURL: {},
-      percussionURL: {}
+      menu: {},
+      // stands: {},
+      // percussion: {},
+      URL: {},
+      // standsURL: {},
+      // percussionURL: {}
     }
   }
 
