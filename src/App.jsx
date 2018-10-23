@@ -15,15 +15,18 @@ class App extends Component {
   }
 
   handleTaiko = () => {
-    this.setState({ menu: {} })
+    this.setState({ menu: {},
+                    URL: {} })
   }
 
   handleStands = () => {
-    this.setState({ menu: {} })
+    this.setState({ menu: {},
+                    URL: {} })
   }
 
   handlePercussion = () => {
-    this.setState({ menu: {} })
+    this.setState({ menu: {},
+                    URL: {} })
   }
 
   render() {
