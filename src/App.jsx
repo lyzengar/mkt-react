@@ -15,12 +15,12 @@ class App extends Component {
   }
 
   handleTaiko = () => {
-    this.setState({ menu: {},
+    this.setState({ menu: {Asano: "Asano"},
                     URL: {} })
   }
 
   handleStands = () => {
-    this.setState({ menu: {},
+    this.setState({ menu: {Box: "Box"},
                     URL: {} })
   }
 
