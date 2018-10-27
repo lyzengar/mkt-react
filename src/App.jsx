@@ -24,7 +24,8 @@ class App extends Component {
     this.setState({ menu: {Box: "Box",
                             Kato: "Kato",
                             Yatai: "Yatai",
-                            Odaiko: "Odaiko"},
+                            Odaiko: "Odaiko",
+                            Shime: "Shime"},
                     URL: {} })
   }
 
