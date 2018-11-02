@@ -18,7 +18,8 @@ class App extends Component {
     this.setState({ menu: {Asano: "Asano",
                             Kato: "Kato",
                             Heavy: "Heavy",
-                            Red: "Red"},
+                            Red: "Red",
+                            BlackAndRed: "Black and Red"},
                     URL: {} })
   }
 
