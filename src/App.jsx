@@ -19,7 +19,8 @@ class App extends Component {
                             Kato: "Kato",
                             Heavy: "Heavy",
                             Red: "Red",
-                            BlackAndRed: "Black and Red"},
+                            BlackAndRed: "Black and Red",
+                            Masala: "Masala"},
                     URL: {} })
   }
 
