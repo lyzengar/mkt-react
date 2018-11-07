@@ -20,7 +20,8 @@ class App extends Component {
                             Heavy: "Heavy",
                             Red: "Red",
                             BlackAndRed: "Black and Red",
-                            Masala: "Masala"},
+                            Masala: "Masala",
+                            BigDana: "Big Dana"},
                     URL: {} })
   }
 
