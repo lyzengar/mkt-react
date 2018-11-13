@@ -36,7 +36,8 @@ class App extends Component {
   }
 
   handlePercussion = () => {
-    this.setState({ menu: {Tetsuzutsu: "Tetsuzutsu"},
+    this.setState({ menu: {Tetsuzutsu: "Tetsuzutsu",
+                            Kane: "Kane"},
                     URL: {} })
   }
 
