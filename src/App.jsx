@@ -32,7 +32,8 @@ class App extends Component {
                             Kato: "Kato",
                             Yatai: "Yatai",
                             Odaiko: "Odaiko",
-                            Shime: "Shime"},
+                            Shime: "Shime",
+                            Okedo: "Okedo"},
                     URL: {} })
   }
 
