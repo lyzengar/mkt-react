@@ -33,6 +33,7 @@ class App extends Component {
                             Yatai: "Yatai",
                             Odaiko: "Odaiko",
                             Shime1: "Shime (sitting)",
+                            Shime2: "Shime (standing)",
                             Okedo: "Okedo"},
                     URL: {} })
   }
