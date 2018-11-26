@@ -5,6 +5,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
+      list: {},
       menu: {},
       // stands: {},
       // percussion: {},
