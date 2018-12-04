@@ -30,7 +30,8 @@ class App extends Component {
   }
 
   handleStands = () => {
-    this.setState({ menu: {Box: "Box",
+    this.setState({ list: {},
+                    menu: {Box: "Box",
                             Kato: "Kato",
                             Yatai: "Yatai",
                             Odaiko: "Odaiko",
