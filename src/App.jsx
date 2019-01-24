@@ -16,33 +16,43 @@ class App extends Component {
   }
 
   handleTaiko = () => {
-    this.setState({ list: {Asano: {menu: "",
-                                    caption: "",
-                                    URL: ""},
-                          SmallAsano: {menu: "",
-                                        caption: "",
-                                        URL: ""},
-                          Kato: {menu: "",
-                                  caption: "",
-                                  URL: ""},
-                          Heavy: {menu: "",
-                                  caption: "",
-                                  URL: ""},
-                          Red: {menu: "",
-                                caption: "",
-                                URL: ""},
-                          BlackAndRed: {menu: "",
-                                        caption: "",
-                                        URL: ""},
-                          Masala: {menu: "",
-                                    caption: "",
-                                    URL: ""},
-                          Crestone:{menu: "",
-                                    caption: "",
-                                    URL: ""},
-                          BigDana: {menu: "",
-                                    caption: "",
-                                    URL: ""}},
+    this.setState({ list: {
+      Asano: {
+        menu: "",
+        caption: "",
+        URL: ""},
+      SmallAsano: {
+        menu: "",
+        caption: "",
+        URL: ""},
+      Kato: {
+        menu: "",
+        caption: "",
+        URL: ""},
+      Heavy: {
+        menu: "",
+        caption: "",
+        URL: ""},
+      Red: {
+        menu: "",
+        caption: "",
+        URL: ""},
+      BlackAndRed: {
+        menu: "",
+        caption: "",
+        URL: ""},
+      Masala: {
+        menu: "",
+        caption: "",
+        URL: ""},
+      Crestone:{
+        menu: "",
+        caption: "",
+        URL: ""},
+      BigDana: {
+        menu: "",
+        caption: "",
+        URL: ""}},
                     menu: {Asano: "Asano",
                             SmallAsano: "Small Asano",
                             Kato: "Kato",
