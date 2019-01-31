@@ -19,7 +19,7 @@ class App extends Component {
     this.setState({ list: {
       Asano: {
         menu: "Asano",
-        caption: "",
+        caption: "A1, A2, A3",
         URL: ""},
       SmallAsano: {
         menu: "Small Asano",
