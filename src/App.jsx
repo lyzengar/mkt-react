@@ -18,7 +18,7 @@ class App extends Component {
   handleTaiko = () => {
     this.setState({ list: {
       Asano: {
-        menu: "",
+        menu: "Asano",
         caption: "",
         URL: ""},
       SmallAsano: {
