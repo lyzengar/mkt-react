@@ -53,16 +53,17 @@ class App extends Component {
         menu: "",
         caption: "",
         URL: ""}},
-                    menu: {Asano: "Asano",
-                            SmallAsano: "Small Asano",
-                            Kato: "Kato",
-                            Heavy: "Heavy",
-                            Red: "Red",
-                            BlackAndRed: "Black and Red",
-                            Masala: "Masala",
-                            Crestone: "Crestone",
-                            BigDana: "Big Dana"},
-                    URL: {} })
+                    // menu: {Asano: "Asano",
+                    //         SmallAsano: "Small Asano",
+                    //         Kato: "Kato",
+                    //         Heavy: "Heavy",
+                    //         Red: "Red",
+                    //         BlackAndRed: "Black and Red",
+                    //         Masala: "Masala",
+                    //         Crestone: "Crestone",
+                    //         BigDana: "Big Dana"},
+                    // URL: {} 
+                  })
   }
 
   handleStands = () => {
