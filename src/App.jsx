@@ -22,35 +22,39 @@ class App extends Component {
         caption: "",
         URL: ""},
       SmallAsano: {
-        menu: "",
+        menu: "Small Asano",
         caption: "",
         URL: ""},
       Kato: {
-        menu: "",
+        menu: "Kato",
         caption: "",
         URL: ""},
       Heavy: {
-        menu: "",
+        menu: "Heavy",
         caption: "",
         URL: ""},
       Red: {
-        menu: "",
+        menu: "Red",
         caption: "",
         URL: ""},
       BlackAndRed: {
-        menu: "",
+        menu: "Black and Red",
         caption: "",
         URL: ""},
       Masala: {
-        menu: "",
+        menu: "Masala",
         caption: "",
         URL: ""},
       Crestone:{
-        menu: "",
+        menu: "Crestone",
         caption: "",
         URL: ""},
       BigDana: {
-        menu: "",
+        menu: "Big Dana",
+        caption: "",
+        URL: ""},
+      Odaiko: {
+        menu: "Odaiko",
         caption: "",
         URL: ""}},
                     // menu: {Asano: "Asano",
