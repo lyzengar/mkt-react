@@ -23,11 +23,11 @@ class App extends Component {
         URL: ""},
       SmallAsano: {
         menu: "Small Asano",
-        caption: "",
+        caption: "As1, As2",
         URL: ""},
       Kato: {
         menu: "Kato",
-        caption: "",
+        caption: "K1, K2",
         URL: ""},
       Heavy: {
         menu: "Heavy",
