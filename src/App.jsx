@@ -31,7 +31,7 @@ class App extends Component {
         URL: ""},
       Heavy: {
         menu: "Heavy",
-        caption: "",
+        caption: "H",
         URL: ""},
       Red: {
         menu: "Red",
