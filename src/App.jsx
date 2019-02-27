@@ -71,7 +71,12 @@ class App extends Component {
   }
 
   handleStands = () => {
-    this.setState({ list: {},
+    this.setState({ list: {
+      Box: {
+        menu: "Box",
+        caption: "",
+        URL: ""},
+    },
                     menu: {Box: "Box",
                             Kato: "Kato",
                             Yatai: "Yatai",
