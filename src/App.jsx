@@ -76,6 +76,10 @@ class App extends Component {
         menu: "Box",
         caption: "Box Stand",
         URL: ""},
+      Kato: {
+        menu: "Kato",
+        caption: "Kato Stand",
+        URL: ""},
     },
                     menu: {Box: "Box",
                             Kato: "Kato",
