@@ -74,7 +74,7 @@ class App extends Component {
     this.setState({ list: {
       Box: {
         menu: "Box",
-        caption: "",
+        caption: "Box Stand",
         URL: ""},
     },
                     menu: {Box: "Box",
