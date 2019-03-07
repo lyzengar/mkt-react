@@ -80,6 +80,10 @@ class App extends Component {
         menu: "Kato",
         caption: "Kato Stand",
         URL: ""},
+      Yatai: {
+        menu: "Yatai",
+        caption: "Yatai Stand",
+        URL: ""},
     },
                     menu: {Box: "Box",
                             Kato: "Kato",
