@@ -5,11 +5,12 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      list: {},
-      menu: {},
+      // list: {},
+      // menu: {},
       // stands: {},
       // percussion: {},
       URL: {},
+      caption: {},
       // standsURL: {},
       // percussionURL: {}
     }
