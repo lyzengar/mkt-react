@@ -88,6 +88,10 @@ class App extends Component {
         menu: "Odaiko",
         caption: "Odaiko Stand",
         URL: ""},
+      Shime1: {
+        menu: "Shime (sitting)",
+        caption: "Shime Stand (sitting)",
+        URL: ""},
     },
                     menu: {Box: "Box",
                             Kato: "Kato",
