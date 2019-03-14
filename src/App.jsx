@@ -36,11 +36,11 @@ class App extends Component {
         URL: ""},
       Red: {
         menu: "Red",
-        caption: "",
+        caption: "Red",
         URL: ""},
       BlackAndRed: {
         menu: "Black and Red",
-        caption: "",
+        caption: "BR",
         URL: ""},
       Masala: {
         menu: "Masala",
@@ -48,7 +48,7 @@ class App extends Component {
         URL: ""},
       Crestone:{
         menu: "Crestone",
-        caption: "",
+        caption: "C1",
         URL: ""},
       BigDana: {
         menu: "Big Dana",
@@ -75,23 +75,23 @@ class App extends Component {
     this.setState({ list: {
       Box: {
         menu: "Box",
-        caption: "Box Stand",
+        caption: "",
         URL: ""},
       Kato: {
         menu: "Kato",
-        caption: "Kato Stand",
+        caption: "",
         URL: ""},
       Yatai: {
         menu: "Yatai",
-        caption: "Yatai Stand",
+        caption: "",
         URL: ""},
       Odaiko: {
         menu: "Odaiko",
-        caption: "Odaiko Stand",
+        caption: "",
         URL: ""},
       Shime1: {
         menu: "Shime (sitting)",
-        caption: "Shime Stand (sitting)",
+        caption: "",
         URL: ""},
     },
                     menu: {Box: "Box",
