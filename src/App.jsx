@@ -119,7 +119,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        
+        <Main
+          handleTaiko={this.handleTaiko}
+          handleStands={this.handleStands}
+          handlePercussion={this.handlePercussion}
+          selectPic={this.selectPic}
+        />
       </div>
     );
   }
