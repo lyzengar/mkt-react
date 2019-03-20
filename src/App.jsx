@@ -21,27 +21,27 @@ class App extends Component {
       Asano: {
         menu: "Asano",
         caption: "A1, A2, A3",
-        URL: ""},
+        URL: "https://imgur.com/Ajzm4Jh.jpg"},
       SmallAsano: {
         menu: "Small Asano",
         caption: "As1, As2",
-        URL: ""},
+        URL: "https://imgur.com/oBr47Rn.jpg"},
       Kato: {
         menu: "Kato",
         caption: "K1, K2",
-        URL: ""},
+        URL: "https://imgur.com/o059u7P.jpg"},
       Heavy: {
         menu: "Heavy",
         caption: "H",
-        URL: ""},
+        URL: "https://imgur.com/OJZPxEP.jpg"},
       Red: {
         menu: "Red",
         caption: "Red",
-        URL: ""},
+        URL: "https://imgur.com/WozGHYJ.jpg"},
       BlackAndRed: {
         menu: "Black and Red",
         caption: "BR",
-        URL: ""},
+        URL: "https://imgur.com/pQtG99L.jpg"},
       Masala: {
         menu: "Masala",
         caption: "",
@@ -49,15 +49,15 @@ class App extends Component {
       Crestone:{
         menu: "Crestone",
         caption: "C1",
-        URL: ""},
+        URL: "https://imgur.com/rMDKk4x.jpg"},
       BigDana: {
         menu: "Big Dana",
         caption: "",
-        URL: ""},
+        URL: "https://imgur.com/BEDGpGu.jpg"},
       Odaiko: {
         menu: "Odaiko",
         caption: "",
-        URL: ""}},
+        URL: "https://imgur.com/YONMJcc.jpg"}},
                     // menu: {Asano: "Asano",
                     //         SmallAsano: "Small Asano",
                     //         Kato: "Kato",
@@ -110,6 +110,10 @@ class App extends Component {
                             Kane: "Kane",
                             Chappa: "Chappa"},
                     URL: {} })
+  }
+
+  selectPic = () => {
+    this.setState({})
   }
 
   render() {
