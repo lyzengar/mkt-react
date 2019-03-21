@@ -10,9 +10,12 @@ button {
     border: none;
     color: white;
     background-color: black;
-    padding: 5px;
+    padding: 4px;
+    font-size: 18px;
+    font-family: 'IM Fell DW Pica SC', serif;
 }
 
-button:hover {
+button:hover, button:focus {
     background-color: #383838;
+    outline: none;
 }

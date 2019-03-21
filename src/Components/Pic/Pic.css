@@ -4,5 +4,6 @@
 }
 
 img {
-    width: 70%;
+    max-width: 90%;
+    max-height: 70%;
 }

@@ -6,7 +6,7 @@ const Pic = (props) => {
     return (
         <div class="pic">
             { props.URL ? <img src={props.URL} alt=""></img> : null }
-            {/* <h3>{props.caption}</h3> */}
+            <h3>{props.caption}</h3>
         </div>
     )
 }

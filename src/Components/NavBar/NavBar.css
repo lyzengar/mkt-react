@@ -1,8 +1,22 @@
 .nav-bar {
+    text-align: center;
+}
+
+.nav-head {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.nav-head h2:nth-child(2) {
+    font-family: "Sawarabi Mincho";
+}
+
+.nav-sections {
     display: flex;
     justify-content: center;
 }
 
 h3 {
-    margin: 30px;
+    margin: 0 30px 30px 30px;
 }
