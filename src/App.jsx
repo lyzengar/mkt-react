@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Main from './Components/Main/Main'
 
 class App extends Component {
   constructor() {
@@ -14,50 +15,57 @@ class App extends Component {
       // standsURL: {},
       // percussionURL: {}
     }
+    // this.listItems = this.state.list ? Object.keys(this.state.list).map((item, key) =>   
+    //   <li key={item.id} value={item.URL}>{item.menu}</li>
+    // ) : ""
   }
 
   handleTaiko = () => {
-    this.setState({ list: {
-      Asano: {
-        menu: "Asano",
-        caption: "A1, A2, A3",
-        URL: "https://imgur.com/Ajzm4Jh.jpg"},
-      SmallAsano: {
-        menu: "Small Asano",
-        caption: "As1, As2",
-        URL: "https://imgur.com/oBr47Rn.jpg"},
-      Kato: {
-        menu: "Kato",
-        caption: "K1, K2",
-        URL: "https://imgur.com/o059u7P.jpg"},
-      Heavy: {
-        menu: "Heavy",
-        caption: "H",
-        URL: "https://imgur.com/OJZPxEP.jpg"},
-      Red: {
-        menu: "Red",
-        caption: "Red",
-        URL: "https://imgur.com/WozGHYJ.jpg"},
-      BlackAndRed: {
-        menu: "Black and Red",
-        caption: "BR",
-        URL: "https://imgur.com/pQtG99L.jpg"},
-      Masala: {
-        menu: "Masala",
-        caption: "",
-        URL: ""},
-      Crestone:{
-        menu: "Crestone",
-        caption: "C1",
-        URL: "https://imgur.com/rMDKk4x.jpg"},
-      BigDana: {
-        menu: "Big Dana",
-        caption: "",
-        URL: "https://imgur.com/BEDGpGu.jpg"},
-      Odaiko: {
-        menu: "Odaiko",
-        caption: "",
-        URL: "https://imgur.com/YONMJcc.jpg"}},
+    this.setState({ list: [
+      {menu: "Asano", caption: "A1, A2, A3", URL: "https://imgur.com/Ajzm4Jh.jpg"},
+      {menu: "Small Asano", caption: "As1, As2", URL: "https://imgur.com/oBr47Rn.jpg"}
+    ]
+      // {
+      // Asano: {
+      //   menu: "Asano",
+      //   caption: "A1, A2, A3",
+      //   URL: "https://imgur.com/Ajzm4Jh.jpg"},
+      // SmallAsano: {
+      //   menu: "Small Asano",
+      //   caption: "As1, As2",
+      //   URL: "https://imgur.com/oBr47Rn.jpg"},
+      // Kato: {
+      //   menu: "Kato",
+      //   caption: "K1, K2",
+      //   URL: "https://imgur.com/o059u7P.jpg"},
+      // Heavy: {
+      //   menu: "Heavy",
+      //   caption: "H",
+      //   URL: "https://imgur.com/OJZPxEP.jpg"},
+      // Red: {
+      //   menu: "Red",
+      //   caption: "Red",
+      //   URL: "https://imgur.com/WozGHYJ.jpg"},
+      // BlackAndRed: {
+      //   menu: "Black and Red",
+      //   caption: "BR",
+      //   URL: "https://imgur.com/pQtG99L.jpg"},
+      // Masala: {
+      //   menu: "Masala",
+      //   caption: "",
+      //   URL: ""},
+      // Crestone:{
+      //   menu: "Crestone",
+      //   caption: "C1",
+      //   URL: "https://imgur.com/rMDKk4x.jpg"},
+      // BigDana: {
+      //   menu: "Big Dana",
+      //   caption: "",
+      //   URL: "https://imgur.com/BEDGpGu.jpg"},
+      // Odaiko: {
+      //   menu: "Odaiko",
+      //   caption: "",
+      //   URL: "https://imgur.com/YONMJcc.jpg"}},
                     // menu: {Asano: "Asano",
                     //         SmallAsano: "Small Asano",
                     //         Kato: "Kato",
@@ -112,8 +120,8 @@ class App extends Component {
                     URL: {} })
   }
 
-  selectPic = () => {
-    this.setState({})
+  selectPic = (e) => {
+    this.setState({ URL: e.target.value })
   }
 
   render() {
@@ -124,6 +132,9 @@ class App extends Component {
           handleStands={this.handleStands}
           handlePercussion={this.handlePercussion}
           selectPic={this.selectPic}
+          URL={this.state.URL}
+          caption={this.state.caption}
+          list={this.state.list}
         />
       </div>
     );
