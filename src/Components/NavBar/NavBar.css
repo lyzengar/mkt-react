@@ -1,0 +1,8 @@
+.nav-bar {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    margin: 30px;
+}

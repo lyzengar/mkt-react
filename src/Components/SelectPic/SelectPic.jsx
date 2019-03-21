@@ -3,13 +3,11 @@ import './SelectPic.css';
 
 const SelectPic = (props) => {
     let menuItems = props.list ? props.list.map((item, i) => (
-        <li key={i} value={item.URL}>{item.menu}</li>
+        <button key={i} value={item.URL} data-value={item.caption} onClick={(e) => props.selectPic(e)}>{item.menu}</button>
     )): ""
     return (
         <div className="select-pic">
-            <ul>
                 {menuItems}
-            </ul>
         </div>
     )
 }

@@ -1,0 +1,18 @@
+.select-pic {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+}
+
+button {
+    width: 80%;
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: #383838;
+}
