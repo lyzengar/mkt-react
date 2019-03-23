@@ -1,11 +1,14 @@
 .nav-bar {
     text-align: center;
+    border-bottom: solid white 1px;
 }
 
 .nav-head {
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
+    margin-bottom: -30px;
+    line-height: 1.0;
 }
 
 .nav-head h2:nth-child(2) {
@@ -18,5 +21,10 @@
 }
 
 h3 {
-    margin: 0 30px 30px 30px;
+    padding: 0 40px;
+}
+
+h3:hover {
+    background-color: #383838;
+    cursor: pointer;
 }
