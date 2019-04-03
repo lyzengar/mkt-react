@@ -18,7 +18,7 @@ class App extends Component {
         {menu: "Black and Red", caption: "BR", URL: "https://imgur.com/pQtG99L.jpg"},
         {menu: "Crestone 1", caption: "C1", URL: "https://imgur.com/rMDKk4x.jpg"},
         {menu: "Crestone 2", caption: "C2", URL: "https://imgur.com/R0z9RgX.jpg"},
-        {menu: "Crestone 3", caption: "C3", URL: "https://imgur.com/RFkynuP.jp"},
+        {menu: "Crestone 3", caption: "C3", URL: "https://imgur.com/RFkynuP.jpg"},
         {menu: "Big Dana", caption: "", URL: "https://imgur.com/BEDGpGu.jpg"},
         {menu: "Masala", caption: "", URL: "https://imgur.com/HqGtMdG.jpg"},
         {menu: "Shime", caption: "San-cho 2x, Regular 4x", URL: "https://imgur.com/tW2lxfH.jpg"},
@@ -66,7 +66,7 @@ class App extends Component {
   handlePercussion = () => {
     this.setState({
       list: [
-        {menu: "Tetsuzutsu", caption: "", URL: "https://imgur.com/atpRlwT.jpg"},
+        {menu: "Tetsuzutsu", caption: "Tetsuzutsu (cannon)", URL: "https://imgur.com/atpRlwT.jpg"},
         {menu: "Kane", caption: "", URL: "https://imgur.com/KCeNuGs.jpg"},
         // {menu: "Chappa", caption: "", URL: ""},
       ]
