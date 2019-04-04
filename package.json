@@ -15,7 +15,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://lyzengar.github.io/mkt-react/",
+  "homepage": "http://lyzengar.github.io/mkt-react/",
   "devDependencies": {
     "gh-pages": "^2.0.1"
   }
