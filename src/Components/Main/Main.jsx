@@ -5,7 +5,7 @@ import SelectPic from '../SelectPic/SelectPic'
 
 const Main = (props) => {
     return (
-        <div class="main">           
+        <div className="main">           
             <SelectPic
                 selectPic={props.selectPic}
                 list={props.list}
