@@ -43,6 +43,7 @@ class App extends Component {
       {menu: "Odaiko", caption: "", URL: "https://imgur.com/YONMJcc.jpg"},
       {menu: "Okedo", caption: "", URL: "https://imgur.com/lMCiHaK.jpg"},
       {menu: "Big Dana", caption: "", URL: ""}
+      {menu: "Hira", caption: "", URL: ""}
     ]
     })
   }
