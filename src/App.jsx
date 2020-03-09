@@ -42,7 +42,7 @@ class App extends Component {
       {menu: "Shime", caption: "", URL: "https://imgur.com/tW2lxfH.jpg"},
       {menu: "Odaiko", caption: "", URL: "https://imgur.com/YONMJcc.jpg"},
       {menu: "Okedo", caption: "", URL: "https://imgur.com/lMCiHaK.jpg"},
-      {menu: "Big Dana", caption: "", URL: "https://imgur.com/lMCiHaK.jpg"}
+      {menu: "Big Dana", caption: "", URL: ""}
     ]
     })
   }
