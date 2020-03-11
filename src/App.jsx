@@ -70,7 +70,7 @@ class App extends Component {
       list: [
         {menu: "Tetsuzutsu", caption: "Tetsuzutsu (cannon)", URL: "https://imgur.com/atpRlwT.jpg"},
         {menu: "Kane", caption: "", URL: "https://imgur.com/KCeNuGs.jpg"},
-        // {menu: "Chappa", caption: "", URL: ""},
+        {menu: "Chappa", caption: "", URL: ""},
       ]
     })
   }
